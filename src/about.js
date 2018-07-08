@@ -14,10 +14,10 @@ class About extends Component {
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-lg-offset-2">
-                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                            <p>I'm a front end software engineer.  I've been at it professionally since 2015.  But before that, I spent years building static websites for hobby projects and eventually for my own photography business.</p>
                         </div>
                         <div class="col-lg-4">
-                            <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                            <p>As a former photographer, I have a great eye for detail.  I love putting a polish on projects.  I can produce beautiful mockups or execute pixel perfect pages or components from your designer's vision.</p>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2 text-center">
                             <a class="btn btn-lg btn-outline">
