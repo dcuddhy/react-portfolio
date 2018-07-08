@@ -20,8 +20,8 @@ class About extends Component {
                             <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2 text-center">
-                            <a href="#" class="btn btn-lg btn-outline">
-                                <i class="fa fa-download"></i> Download Theme
+                            <a class="btn btn-lg btn-outline">
+                                <i class="fa fa-download"></i> Download
                             </a>
                         </div>
                     </div>
