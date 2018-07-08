@@ -14,7 +14,7 @@ class Resume extends Component {
                     </div>
                     <div class="row">
                         <div class="col-lg-6 col-lg-offset-3">
-                            <p>Would you like to know more?  You can download my resume and find me LinkedIn among other places.  I'm easy to find.</p>
+                            <p>Would you like to know more?  You can download my resume and find me on LinkedIn among other places.  I'm easy to find.</p>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2 text-center">
                             <a class="btn btn-lg btn-outline">
