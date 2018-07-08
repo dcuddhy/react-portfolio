@@ -18,9 +18,7 @@ p.small {
 
 a,
 a:hover,
-a:focus,
-a:active,
-a.active {
+a:focus {
     outline: 0;
     color: #2096F5;
 }
@@ -31,9 +29,9 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-family: 'Muli', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 
 hr.star-light,
@@ -99,15 +97,15 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* text-transform: uppercase; */
+    font-family: 'Muli', "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 @media(min-width:768px) {
@@ -150,9 +148,9 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-family: 'Muli', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 
 .navbar a:focus {
@@ -188,9 +186,9 @@ section.success {
 
 section.success a,
 section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
+/* section.success a:active, */
+/* section.success a.active,  */
+section.success a:focus {
     outline: 0;
     color: #052F61;
 }
@@ -277,9 +275,7 @@ section.success a.active {
 }
 
 .btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
+.btn-outline:focus {
     border: solid 2px #052F61;
     background: #fff;
 }
@@ -341,7 +337,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    color: #fff;
+    color: #052F61;
 }
 
 footer h3 {
@@ -359,7 +355,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #EDEEEE;
 }
 
 .btn-social {
@@ -373,9 +369,7 @@ footer .footer-below {
     line-height: 45px;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active {
+.btn:focus {
     outline: 0;
 }
 
@@ -463,8 +457,12 @@ footer .footer-below {
     opacity: 0;
 }
 
-
 /* OVERRIDES */
 .navbar-default {
     background: #052F61;
+}
+#profile-image {
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
 }
