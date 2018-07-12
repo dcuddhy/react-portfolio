@@ -47,7 +47,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src={PortfolioListen} className="img-responsive" alt="" />
+                                <img src={PortfolioListen} className="img-responsive img-centered" alt="" />
                             </a>
                         </div>
                         <div className="col-sm-4 portfolio-item">

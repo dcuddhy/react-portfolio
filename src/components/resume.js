@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ResumeIcon from "../assets/images/resume-icon.png";
 
 
 class Resume extends Component {
@@ -10,6 +11,7 @@ class Resume extends Component {
                         <div className="col-lg-12 text-center">
                             <h2>Resume</h2>
                             <hr className="star-light" />
+                            <img id="profile-image" className="img-responsive img-centered" src={ResumeIcon} alt="" />
                         </div>
                     </div>
                     <div className="row">
