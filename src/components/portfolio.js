@@ -1,4 +1,11 @@
 import React, { Component } from 'react';
+import PortfolioNotes from "../assets/images/screen-notes-combo.png";
+import PortfolioListen from "../assets/images/screen-listen.png";
+import PortfoliogCamp from "../assets/images/screen-gcamp.png";
+import PortfolioFolio from "../assets/images/screen-folio.png";
+import PortfolioTBCDC from "../assets/images/screen-tbcdc.png";
+import PortfolioDCP from "../assets/images/screen-dcp.png";
+
 
 
 class Portfolio extends Component {
@@ -20,7 +27,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/cabin.png" className="img-responsive" alt="" />
+                                <img src={PortfolioTBCDC} className="img-responsive" alt="" />
                             </a>
                         </div>
                         <div className="col-sm-4 portfolio-item">
@@ -30,7 +37,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/cake.png" className="img-responsive" alt="" />
+                                <img src={PortfoliogCamp} className="img-responsive" alt="" />
                             </a>
                         </div>
                         <div className="col-sm-4 portfolio-item">
@@ -40,7 +47,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/circus.png" className="img-responsive" alt="" />
+                                <img src={PortfolioListen} className="img-responsive" alt="" />
                             </a>
                         </div>
                         <div className="col-sm-4 portfolio-item">
@@ -50,7 +57,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/game.png" className="img-responsive" alt="" />
+                                <img src={PortfolioFolio} className="img-responsive" alt="" />
                             </a>
                         </div>
                         <div className="col-sm-4 portfolio-item">
@@ -60,7 +67,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/safe.png" className="img-responsive" alt="" />
+                                <img src={PortfolioDCP} className="img-responsive" alt="" />
                             </a>
                         </div>
                         <div className="col-sm-4 portfolio-item">
@@ -70,7 +77,7 @@ class Portfolio extends Component {
                                         <i className="fa fa-search-plus fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="img/portfolio/submarine.png" className="img-responsive" alt="" />
+                                <img src={PortfolioNotes} className="img-responsive" alt="" />
                             </a>
                         </div>
                     </div>

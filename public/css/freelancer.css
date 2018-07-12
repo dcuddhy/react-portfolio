@@ -466,3 +466,7 @@ footer .footer-below {
     height: 256px;
     border-radius: 128px;
 }
+#portfolio .img-responsive {
+    max-height: 200px;
+    margin: 0 auto;
+}
